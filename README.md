@@ -1,2 +1,2 @@
-# tif_ro_jpeg
+# tif_to_jpeg
 Function to convert .tif to .jpeg
