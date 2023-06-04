@@ -19,7 +19,6 @@ def tif_to_jpeg(folder_input, folder_to):
         os.makedirs(folder_to)
 
     loaded = 0
-    files = Path(folder_input).glob('*.tif')
     for file in files:
         full_name = os.path.basename(file)
         name = os.path.splitext(full_name)[0]
