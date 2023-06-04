@@ -1,4 +1,3 @@
-from os import path
 import os
 from pathlib import Path
 from PIL import Image
@@ -22,8 +21,8 @@ def tif_to_jpeg(folder_input, folder_to):
     loaded = 0
     files = Path(folder_input).glob('*.tif')
     for file in files:
-        full_name = path.basename(file)
-        name = path.splitext(full_name)[0]
+        full_name = os.path.basename(file)
+        name = os.path.splitext(full_name)[0]
         full_path_input = os.path.join(folder_input, full_name)
         full_path_out = os.path.join(folder_to, name + '.jpeg')
 
