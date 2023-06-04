@@ -1,6 +1,6 @@
 # Function to convert .TIF to .JPEG
 
-Устанавливаем библиотеку __Pillow__ (version: __9.5.0.__)
+Устанавливаем библиотеку __Pillow__ (version: __9.5.0.__).
 Для этого в терминале вводим команду:
 ```
 pip install pillow==9.5.0
