@@ -5,6 +5,14 @@
 ```
 pip install pillow==9.5.0
 ```
+
+Импортируем библиотеки, необходимые для работы:
+```python
+from pathlib import Path
+from PIL import Image
+import os
+```
+
 Сама функция выглядит следующим образом:
 ```python
 def tif_to_jpeg(folder_input, folder_to):
